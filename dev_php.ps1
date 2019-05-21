@@ -82,7 +82,7 @@ foreach($File in $(Ls "C:\dev\fonts")) {
 
 #--- Lando ---
 $webClient.DownloadFile("https://github.com/lando/lando/releases/download/v3.0.0-rc.16/lando-v3.0.0-rc.16.exe", "C:\dev\lando.exe")
-'C:\dev\lando.exe' /q
+C:\dev\lando.exe /q
 
 #--- PHP ---
 choco isntall -y php
