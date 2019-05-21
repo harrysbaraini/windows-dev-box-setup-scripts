@@ -39,7 +39,6 @@ choco install -y vlc
 choco install -y FoxitReader
 choco install -y spotify
 
-
 #--- VSCode Extensions ---
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-edge
@@ -59,8 +58,8 @@ code --install-extension amiralizadeh9480.laravel-extra-intellisense
 #--- Tools ---
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
 choco install -y yarn
-choco install -y visualstudio2017buildtools
-choco install -y visualstudio2017-workload-vctools
+# choco install -y visualstudio2017buildtools
+# choco install -y visualstudio2017-workload-vctools
 choco install -y python2 # Node.js requires Python 2 to build native modules
 choco install -y notepadplusplus
 choco install -y putty
@@ -68,6 +67,11 @@ choco install -y cmder
 choco install -y insomnia-rest-api-client 
 choco install -y firacode
 choco install -y hackfont
+choco isntall -y php
+choco install -y composer
+choco install -y phpstorm
+choco install -y datagrip
+choco install -y microsoftwebdriver
 
 #--- Fonts ---
 $objFolder = $objShell.Namespace(0x14)
@@ -84,14 +88,7 @@ foreach($File in $(Ls "C:\dev\fonts")) {
 $webClient.DownloadFile("https://github.com/lando/lando/releases/download/v3.0.0-rc.16/lando-v3.0.0-rc.16.exe", "C:\dev\lando.exe")
 C:\dev\lando.exe /S /q
 
-#--- PHP ---
-choco isntall -y php
-choco install -y composer
-choco install -y phpstorm
-choco install -y datagrip
 
-#--- Microsoft WebDriver ---
-choco install -y microsoftwebdriver
 
 Enable-UAC
 Enable-MicrosoftUpdate
