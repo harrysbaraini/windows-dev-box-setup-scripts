@@ -1,4 +1,6 @@
 
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/harrysbaraini/windows-dev-box-setup-scripts/master/dev_php.ps1'>PHP + NodeJS</a>     | Web Dev with PHP and NodeJS        |
+
 # About this project
 The goal of this project is to provide a central place to share ideas for streamlining dev box setup and provide sample scripts for common dev scenarios. It's likely you will want to take the scripts here and modify them to fit your particular needs. When you make those changes if you think others would benefit please consider submitting a PR. Before you contribute please see the [Contribution Guidelines](CONTRIBUTING.md).
 
